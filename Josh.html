@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en".>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joshua Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/44c8d01a5a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>HR|Web Design|App Design</p>
+                    <h1>Hi, I'm Onajemo <span>Joshua</span><br>from Nigeria</h1>
+                </div>
+            </div>
+        </div>
+        <!----------About-------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/pexels-pixabay-39284.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> About Me</h1>
+                        <p>I will like to introduce myself as a proactive, dynamic and hardworking HR personnel,
+                            who is passionate for technology and innovation. My passion for technology while 
+                        working as an HR personnel lead me to Learning basic programming. I am grateful it has added Web design,
+                    UI/UX, and App design to my Portfolio. I have collaborated with talented individuals to create digital products
+                for both business and consumer use. <br>Will be looking forward to working with more talented people as well as open to assist in the area of
+        web design, app design and UI/UX </p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>HR Management</span><br>HR Skills,Python,SQL,PowerBI,ERP</li>
+                                    <li><span>Software Development</span><br>Java,html,CSS,Python</li>
+                                    <li><span>Web Development</span><br>Java,html,CSS,Python</li>
+                                    <li><span>Data Analyst</span><br>SQL,PowerBI,Python,Excel</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>HR Assistant Jan 2022-Current</span><br>Multiplan Nigeria Limited</li>
+                                    <li><span>HR Analysts Jan 2021-Jan 2022</span><br>Multiplan Nigeria Limited</li>
+                                    <li><span>HR Trainee July 2020-Jan 2021</span><br>Multiplan Nigeria Limited</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Chemical Engineering</span><br>Niger Delta University Second Upper</li>
+                                    <li><span>Data Science/Analyst</span><br>Linkdln Learning</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-----------services--------->
+         <div id="Services">
+            <div class="container">
+                <h1 class="sub-title"> My Services</h1>
+                <div class="Services-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-blog"></i>
+                        <h2>Web Development</h2>
+                        <p> I am into Designining of all kind of website from
+                            the scratch to finish. Feel free to reach out if there
+                            are pendind questions.</p>
+                            <a href="#">Learning More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-uikit"></i>
+                        <h2>Software Development</h2>
+                        <p> I am into Designining of all kind of Software from
+                            the scratch to finish. Reach out and lets work together.
+                            </p>
+                            <a href="#">Learning More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-person-booth"></i>
+                        <h2>HR/Data Analyst</h2>
+                        <p> People management and Data has been the fundamentals of my career. I apply tech
+                             and latest HR culture to people management and uses advance tools for Data analysis.
+                        </p>
+                            <a href="#">Learning More</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-----------Projects--------->
+        <div id="Projects">
+            <div class="container">
+                <h1 class="sub-title"> My Project Work</h1>
+                <div class="Project-list">
+                    <div class="Projects">
+                        <img src="images/imagesHr1.jfif" >
+                        <div class="Layer">
+                            <h3>Resume Parsing </h3>
+                            <p>Resume parsers use machine learning technology to help recruiters search thousands
+                                 of resumes in an intelligent manner so they can screen the right candidate for a 
+                                 job interview.</p>
+                                <a href="file:///Users/mrjovi/Documents/attachments/Project1.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="Projects">
+                        <img src="images/imageschatbox2.jfif" >
+                        <div class="Layer">
+                            <h3>Chatbox</h3>
+                            <p>A chatbot is an AI-based digital assistant that can understand human capabilities
+                                 and simulate human conversations in natural language to give prompt answers to 
+                                 their questions just like a real human would. Chatbots help businesses increase 
+                                 their operational efficiency by automating customer requests.</p>
+                                <a href="file:///Users/mrjovi/Documents/attachments/Project2.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="Projects">
+                        <img src="images/imagescustomer1.png" >
+                        <div class="Layer">
+                            <h3>Churn Prediction</h3>
+                            <p>It is very critical for a business to have an idea about why and when customers
+                                 are likely to churn. Having a robust and accurate churn prediction model helps
+                                  businesses to take actions to prevent customers from leaving the company.</p>
+                                <a href="file:///Users/mrjovi/Documents/attachments/Project3.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="file:///Users/mrjovi/Documents/attachments/Seemore.html" class="btn">See More</a>
+            </div>
+        </div>
+         <!-------------------Contact-------------->
+         <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="Sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> joshuaogaga2015@gmail.com</p>
+                        <p><i class="fa-duotone fa-phone"></i> +234 812 021 1178</p>
+                        <div class="Social-icons">
+                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Copyright">
+            <p>Copyright @Joshua. made with <i class="fa-solid fa-heart"></i> tester codes</p>
+        </div>
+            </div>
+        </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>           
+    </body>
+    </html>

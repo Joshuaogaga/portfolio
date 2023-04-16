@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en".>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 3</title>
+        <meta name="description" content="Case study page of Project">
+        <link rel="stylesheet" href="Styles.css">
+        <script src="https://kit.fontawesome.com/44c8d01a5a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Churn Prediction with Machine Learning</h1>
+                    <p class="text-primary ">Churn prediction is a common use case in machine learning domain. 
+                        If you are not familiar with the term, churn means “leaving the company”. It is very 
+                        critical for a business to have an idea about why and when customers are likely to
+                         churn. Having a robust and accurate churn prediction model helps businesses to take 
+                         actions to prevent customers from leaving the company.</p>
+                </div>
+            </div>
+        </div>
+        <section class="project-details">
+            <div class="main-container">
+              <div class="project-details__content">
+                <div class="project-details__showcase-img-cont">
+                  <img
+                    src="images/imagescustomer1.png"
+                    alt="Project Image"
+                    class="project-details__showcase-img"
+                  />
+                </div>
+                <div class="project-details__content-main">
+                  <div class="project-details__desc">
+                    <h3 class="project-details__content-title">Project Overview</h3>
+                    <p class="project-details__desc-para">
+                        Customer churn (or customer attrition) is a tendency of customers to abandon a brand 
+                        and stop being a paying client of a particular business. The percentage of customers 
+                        that discontinue using a companys products or services during a particular time period
+                         is called a customer churn (attrition) rate. 
+                    </p>
+                    <p class="project-details__desc-para">
+                        There are many things brands may do wrong, from complicated onboarding when customers 
+                        are not given easy-to-understand information about product usage and its capabilities to
+                         poor communication, e.g. the lack of feedback or delayed answers to queries. Another 
+                         situation: Longtime clients may feel unappreciated because they do not get as many 
+                         bonuses as the new ones.
+                    </p>
+                    <p class="project-details__desc-para">
+                        In general, it is the overall customer experience that defines brand perception and 
+                        influences how customers recognize value for money of products or services they use. 
+                    </p>
+                    <p class="project-details__desc-para">
+                        In this project, we will build a logistic regression machine learning model to 
+                        understand the correlation between the different variables in dataset and customer 
+                        churn. This end-to-end churn prediction machine learning model using R will tweak the 
+                        problem of unsatisfied customers and make the revenue flowing for the company. 
+                    </p>
+                  </div>
+                  <div class="project-details__tools-used">
+                    <h3 class="project-details__content-title">Tools To Be Used</h3>
+                    <div class="skills">
+                      <div class="skills__skill">Python</div>
+                      <div class="skills__skill">SQL</div>
+                      <div class="skills__skill">Html</div>
+                      <div class="skills__skill">css</div>
+                      <div class="skills__skill">Java</div>
+                      <div class="skills__skill">SpaCy</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+                </div>
+               
+              </div>
+              <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+            
+                function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+            
+                function openmenu(){
+                    sidemenu.style.right = "0";
+                }
+            
+                function closemenu(){
+                    sidemenu.style.right = "-200px";
+                }
+            </script>   
+        </section>
+    </body>
